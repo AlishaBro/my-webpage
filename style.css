@@ -4,8 +4,12 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.content {
+.content{
     margin: 80px;
+}
+
+.content-about-page {
+    margin: 80px 10px;
 }
 
 h1,
@@ -26,6 +30,10 @@ h2 {
 h3 {
     font-size: 24px;
     opacity: 0.7;
+}
+
+.margin-4{
+    margin: 1.5rem;
 }
 
 p {
@@ -70,7 +78,7 @@ p {
 
 .about-paragraphs {
     display: flex;
-    margin: 30px 0;
+    margin: 12px 0;
 }
 
 .about-paragraphs p {
@@ -94,6 +102,18 @@ p {
 padding: 23px 14px;
 }
 
+.sub-heading{
+    text-align: left;
+}
+
+#contact{
+    margin-top: 30px;
+}
+/* Media Query  */
+
+
+
+
  @media only screen and (max-width:819px) and (min-width:768px) { 
 h2{text-align: center;
 font-size: 36px;}
@@ -106,5 +126,99 @@ padding: 13px 10px;
     display: none;
 }
     
+} 
+
+
+@media only screen and (max-width: 430px) {
+ 
+.project-1,.project-2,.project-3{
+    text-align: center;  
+   
 }
+.media-col{
+    display:none
+}
+
+.project-1{
+    margin-top: 15px !important;
+}
+.sub-heading{
+    text-align: center;
+}
+.content{
+    margin:103px 13px;
+}
+h2 {
+    font-size: 29px;
+    margin-top: 10px ;
+}
+h1 {
+    font-size: 45px;
+    margin-top: 10px;
+}
+h3 {
+    font-size: 24px;
+    opacity: 0.7;
+    line-height: 1.5;
+    margin:5px 0;
+}
+.navigation-links {
+   
+    margin-top: 18px;      
     
+}
+.navigation-links a { 
+
+margin: 18px;
+    border-radius: 4px;
+    padding: 18px 10px
+
+}
+p{
+    padding: 1px 10px;
+}
+
+.project-2,.project-3{
+    margin-top: 1px;
+}
+.hide {
+    display: none;
+}
+
+.content-about-page{
+    margin: 95px 0 0 0 !important;
+}
+
+
+.about-paragraphs{
+    margin: 30px 0;
+    padding: 0 10px;
+}
+.about-page-container{
+   
+    margin: 0;
+}
+
+section{
+    font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        padding: 2px;
+}
+
+
+.yogaAppbtn{
+    display: block;
+    margin: 0 11px;
+}
+
+.col-sm-4{
+    margin-bottom: 25px;
+}
+#contact{
+    font-size: 20px;
+}
+}
+
+
+
