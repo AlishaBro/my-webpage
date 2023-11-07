@@ -135,9 +135,9 @@ padding: 13px 10px;
     text-align: center;  
    
 }
-.media-col{
+/* .media-col{
     display:none
-}
+} */
 
 .project-1{
     margin-top: 15px !important;
@@ -169,7 +169,7 @@ h3 {
 }
 .navigation-links a { 
 
-margin: 18px;
+    margin: 18px;
     border-radius: 4px;
     padding: 18px 10px
 
@@ -197,6 +197,7 @@ p{
 .about-page-container{
    
     margin: 0;
+    
 }
 
 section{
